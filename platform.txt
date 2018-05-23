@@ -1,6 +1,0 @@
-Name_android = Android
-Name_ios = iOS
-Version_android = 6.0.1
-Version_ios = 11.3.1
-device_android = Galaxy
-device_ios = NicolaTesla

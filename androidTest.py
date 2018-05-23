@@ -1,15 +1,23 @@
 __author__ = 'eacarras'
 import unittest
 from appium import webdriver
+import os
 
 
 class AndroidTest(unittest.TestCase):
 
     def setUp(self):
         desired_caps = {}
-        desired_caps["platformName"] = "Android"
-        desired_caps["platformVersion"] = "6.0.1"
-        desired_caps["deviceName"] = "Galaxy"
+        platform_n = input("Input the name of the platform that will be tested: ").lower()
+        if platform_n == "android":
+            desired_caps["platformName"] = os.environ["Name_android"]
+            desired_caps["platformVersion"] = os.environ["Version_android"]
+            desired_caps["deviceName"] = os.environ["device_android"]
+        else:
+            desired_caps["platformName"] = os.environ["Name_ios"]
+            desired_caps["platformVersion"] = os.environ["Version_ios"]
+            desired_caps["deviceName"] = os.environ["device_ios"]
+
         desired_caps["browserName"] = "Chrome"
 
         self.driver = webdriver.Remote("http://localhost:4723/wb/hub", desired_caps)
