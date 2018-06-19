@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="86521a39-d159-4e31-aaa3-3985e4259dc9" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/androidTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/androidTest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/variables.py" beforeDir="false" afterPath="$PROJECT_DIR$/variables.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,20 +15,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="androidTest.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="androidTest.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/androidTest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+            <state relative-caret-position="60">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="variables.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="variables.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/variables.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="47" lean-forward="true" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
+            <state relative-caret-position="15">
+              <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -48,6 +50,7 @@
       <list>
         <option value="$PROJECT_DIR$/Mirka.py" />
         <option value="$PROJECT_DIR$/androidTest.py" />
+        <option value="$PROJECT_DIR$/variables.py" />
       </list>
     </option>
   </component>
@@ -186,17 +189,17 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Mirka.py" />
-    <entry file="file://$PROJECT_DIR$/variables.py">
+    <entry file="file://$PROJECT_DIR$/androidTest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="47" lean-forward="true" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
+        <state relative-caret-position="60">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/androidTest.py">
+    <entry file="file://$PROJECT_DIR$/variables.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+        <state relative-caret-position="15">
+          <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
         </state>
       </provider>
     </entry>
